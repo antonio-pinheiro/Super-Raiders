@@ -13,7 +13,7 @@ conceitos de Multithread em um jogo.<br>
 aprimorar o desempenho do jogo. Utilização da biblioteca LibGDX para inserção de imagens, trilha sonora e áudios do game.</h5>
 
 <h5>Instruções:</h5>
-Para executar o jogo, insira o comando "java -jar SuperRaiders.jar"
+Para executar o jogo, insira o comando no terminal linux ou PowerShell para Windows "java -jar SuperRaiders.jar"
 
 <h5>IMAGENS DO PROJETO</h5>
 
