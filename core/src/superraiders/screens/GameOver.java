@@ -1,8 +1,5 @@
 package superraiders.screens;
 
-import java.sql.DriverManager;
-import java.sql.SQLException;
-
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.Color;
@@ -12,11 +9,10 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.utils.Align;
 import com.mygdx.superraiders.SuperRaiders;
-import com.mysql.jdbc.Connection;
-import com.mysql.jdbc.PreparedStatement;
-import com.mysql.jdbc.Statement;
 
-import ferramentas.ConexaoUtil;
+/*import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.PreparedStatement;
+import com.mysql.jdbc.Statement;*/
 
 public class GameOver implements Screen {
 
@@ -29,9 +25,9 @@ public class GameOver implements Screen {
 
 	Texture gameover;
 	BitmapFont scoreFont;
-	// String url = "jdbc:mysql://0.0.0.0:3306/superraiders";
-	// String nome = "antonio";
-	// String senha = "masterzx";
+	/*String url = "jdbc:mysql://0.0.0.0:3306/superraiders";
+	String nome = "antonio";
+	String senha = "masterzx";*/
 
 	public GameOver(SuperRaiders game, int score) {
 		this.game = game;
@@ -48,7 +44,7 @@ public class GameOver implements Screen {
 			prefs.flush();
 
 			// Insere os dados referentes aos pontos, no mysql
-			try {
+			/*try {
 				Connection conexao = ConexaoUtil.getInstance().getConnection();
 				String sql = "INSERT INTO pontuacao(score, highscore) VALUES (?, ?)";
 				PreparedStatement statement = (PreparedStatement) conexao.clientPrepareStatement(sql);
@@ -64,7 +60,7 @@ public class GameOver implements Screen {
 			} catch (Exception e) {
 				e.printStackTrace();
 
-			}
+			}*/
 		}
 
 	}

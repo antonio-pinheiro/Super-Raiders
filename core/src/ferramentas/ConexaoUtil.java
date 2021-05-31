@@ -1,4 +1,4 @@
-package ferramentas;
+/*package ferramentas;
 
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -36,4 +36,4 @@ public class ConexaoUtil {
 		
 		}
 		}
-}
+}*/
