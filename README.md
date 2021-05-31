@@ -3,7 +3,7 @@
 <h5>Shoot'N Up Desenvolvido em Java com uso de Threads</h5>
 
 <h5>Executável:</h5>
-Realize o download do jogo em: https://antoniopinheiro.itch.io/super-raiders
+Realize o download do jogo em: https://antoniopinheiro.itch.io/super-raiders-java
 
 <h5>Implementar os conhecimentos vistos em aula, utilizando a linguagem de programação Java e a biblioteca de games LibGDX e implementar os 
 conceitos de Multithread em um jogo.<br>
